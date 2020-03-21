@@ -1,0 +1,77 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	height: 100%;
+}
+
+.main .top_heading{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	height: 50px;
+	padding: 10px 0 0 10px;
+}
+
+.main .top_heading .logo{
+	height: 100%;
+}
+
+.main .top_heading .validators{
+	height: 100%;
+}
+
+.main .form_part{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.main .form_part input{
+	margin-left: 5px;
+}
+
+.main .form_part button{
+	background-color: #feb236;
+}
+
+.main .common_movies{
+	text-align: center;
+}
+
+.main .common_movies img{
+	width: 25%;
+}
+
+.main .movies{
+	text-align: center;
+
+}
+
+.table{
+	margin: 0 auto;
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+.table td, th{
+	border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+}
